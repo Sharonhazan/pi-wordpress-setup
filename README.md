@@ -17,7 +17,7 @@ This script automates the installation of WordPress on a Raspberry Pi. It includ
 ```sh
 git clone https://github.com/Sharonhazan/pi-wordpress-installer.git
 ```
-3. Make the script executable using the following command:
+2. Make the script executable using the following command:
 ```sh
 chmod +x pi-wordpress-setup.sh
 ```
