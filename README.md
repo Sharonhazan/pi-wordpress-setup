@@ -9,7 +9,7 @@ This script automates the installation of WordPress on a Raspberry Pi. It includ
 * Sets permissions
 * Cleans up temporary files
 * Restarts Apache to apply changes
-  ### Prerequisites
+### Prerequisites
 * A Raspberry Pi running Raspbian
 * A root user password
 ### Usage
