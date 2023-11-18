@@ -14,13 +14,16 @@ This script automates the installation of WordPress on a Raspberry Pi. It includ
 * A root user password
 ### Usage
 1. Download the script to your Raspberry Pi.
-2. Make the script executable using the following command:
 ```sh
-chmod +x install-wordpress.sh
+git clone https://github.com/Sharonhazan/pi-wordpress-installer.git
+```
+3. Make the script executable using the following command:
+```sh
+chmod +x pi-wordpress-setup.sh
 ```
 3. Run the script using the following command:
 ```sh
-sudo ./install-wordpress.sh
+sudo ./pi-wordpress-setup.sh
 ```
 4. Follow the prompts to enter the required information.
 5. The script will install WordPress and provide you with the necessary login credentials.
