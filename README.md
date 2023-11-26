@@ -27,3 +27,8 @@ sudo ./pi-wordpress-setup.sh
 ```
 4. Follow the prompts to enter the required information.
 5. The script will install WordPress and provide you with the necessary login credentials.
+
+## Todo
+1. adding security features (fail2ban)
+2. adding DuckDNS automation installtion
+   
