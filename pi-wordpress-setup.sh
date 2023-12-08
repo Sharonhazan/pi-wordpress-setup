@@ -6,8 +6,8 @@
 
 # Check if running as root
 if [ "$(id -u)" != "0" ]; then
-   echo "This script must be run as root. Try 'sudo bash $0'" 
-   exit 1
+  echo "This script must be run as root. Try 'sudo bash $0'"
+  exit 1
 fi
 
 # Prompt for MariaDB root password
@@ -72,12 +72,12 @@ rm -rf wordpress
 service apache2 restart
 ip=$(hostname -I | awk '{print $1}')
 echo "#####################################################"
-echo "##        Wordpress and Database info              ##"
-echo "##   MariaDB root password:  $mariadbRootPassword  ##" 
-echo "##   Name for the WordPress database: $wpDatabase  ##"
-echo "##   User for the WordPress database:  $wpUser     ##"
-echo "##   password for the WordPress user:  $wpPassword ##"
-echo "##   Your raspberrypi address is http://$ip        ##"
+echo "##    Wordpress and Database info       ##"
+echo "##  MariaDB root password: $mariadbRootPassword ##"
+echo "##  Name for the WordPress database: $wpDatabase ##"
+echo "##  User for the WordPress database: $wpUser   ##"
+echo "##  password for the WordPress user: $wpPassword ##"
+echo "##  Your raspberrypi address is http://$ip    ##"
 echo "#####################################################"
 
 echo "WordPress installation completed. Access and configure it through your web browser."
